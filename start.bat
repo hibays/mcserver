@@ -1,2 +1,2 @@
 @chcp 65001>>nul
-dash ./start.sh
+start "MCServer" "dash" ./start.sh
