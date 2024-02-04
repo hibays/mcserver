@@ -57,13 +57,14 @@ commands:
   send-namespaced: true
 world-settings:
   default:
+    seed-trialchambers: 9752418714
     below-zero-generation-in-existing-chunks: true
     view-distance: default
     simulation-distance: default
     thunder-chance: 100000
     merge-radius:
-      item: 2.5
-      exp: 3.0
+      item: 5.0
+      exp: 6.0
     mob-spawn-range: 8
     item-despawn-rate: 6000
     arrow-despawn-rate: 1200
@@ -166,8 +167,8 @@ world-settings:
       other-multiplier: 0.0
     max-tnt-per-tick: 100
     max-tick-time:
-      tile: 50
-      entity: 50
+      tile: 500
+      entity: 500
     verbose: false
 players:
   disable-saving: false
