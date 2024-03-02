@@ -1,0 +1,13 @@
+[21:16:28.077 main/INFO] 正在加载插件...
+[21:16:28.088 main/INFO] 已加载 0 个插件
+[21:16:28.114 main/INFO] ******************************************
+[21:16:28.114 main/INFO] 
+[21:16:28.114 main/INFO] 加载 Geyser 中, 版本 2.2.2-SNAPSHOT (git-master-5d95bf6)
+[21:16:28.115 main/INFO] 
+[21:16:28.115 main/INFO] ******************************************
+[21:16:33.193 nioEventLoopGroup-3-1/INFO] Geyser正在启动 0.0.0.0:19132
+[21:16:33.224 main/INFO] 完成 (5.107s)! 执行/geyser help 来获取帮助信息!
+[21:17:48.533 nioEventLoopGroup-3-1/INFO] /192.168.1.6:44650 尝试连接!
+[21:17:49.336 nioEventLoopGroup-4-1/INFO] 玩家以 Freestars8242 的用户名建立了连接
+[21:17:49.351 tcpClientSession-6-1/INFO] Freestars8242 (以 Freestars8242 登入) 连接到了远端Java服务器，地址为 127.0.0.1
+[21:22:53.019 tcpClientSession-6-1/INFO] Freestars8242 因 基岩版客户端已断开连接 从远程Java服务器 127.0.0.1 断开

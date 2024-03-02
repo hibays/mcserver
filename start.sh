@@ -2,7 +2,11 @@ CURDIR=$(cd $(dirname $0); pwd )
 cd $CURDIR
 
 JExec=java
+
+IsLPaper=true
 PaperJAR=$(echo ./paper-1.20.*-*.jar)
+
+IsLGeyser=true
 
 LPaper() {
 
@@ -17,6 +21,24 @@ $JExec \
 
 }
 
-LPaper
+LGeyser() {
 
-pause
+cd ./GeyserS
+
+$JExec \
+	-XX:+UseZGC \
+	-DPaper.IgnoreJavaVersion=true \
+	-jar  "$(echo ./Geyser-*.jar)"\
+	--nogui
+
+cd ..
+
+}
+
+if $IsLPaper;then
+	LPaper &
+fi
+
+if $IsLGeyser;then
+	LGeyser &
+fi
