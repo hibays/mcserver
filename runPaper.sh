@@ -3,10 +3,7 @@ cd $CURDIR
 
 JExec=java
 
-IsLPaper=true
 PaperJAR=$(echo ./paper-1.20.*-*.jar)
-
-IsLGeyser=true
 
 ExtJAVAargs='-XX:+UseZGC -XX:+ZGenerational'
 
@@ -23,24 +20,4 @@ $JExec \
 
 }
 
-LGeyser() {
-
-cd ./GeyserS
-
-$JExec \
-	$ExtJAVAargs \
-	-DPaper.IgnoreJavaVersion=true \
-	-jar  "$(echo ./Geyser-*.jar)"\
-	--nogui
-
-cd ..
-
-}
-
-if $IsLPaper;then
-	LPaper &
-fi
-
-if $IsLGeyser;then
-	LGeyser &
-fi
+LPaper &
