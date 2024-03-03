@@ -5,7 +5,7 @@ JExec=java
 
 PaperJAR=$(echo ./paper-1.20.*-*.jar)
 
-ExtJAVAargs='-XX:+UseZGC -XX:+ZGenerational -Xms1552M -Xmx1536M'
+ExtJAVAargs='-XX:+UseZGC -XX:+ZGenerational -Xms1280M -Xmx1664M'
 
 LPaper() {
 
