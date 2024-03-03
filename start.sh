@@ -8,10 +8,12 @@ PaperJAR=$(echo ./paper-1.20.*-*.jar)
 
 IsLGeyser=true
 
+ExtJAVAargs='-XX:+UseZGC -XX:+ZGenerational'
+
 LPaper() {
 
 $JExec \
-	-XX:+UseZGC \
+	$ExtJAVAargs \
 	-DPaper.IgnoreJavaVersion=true \
 	-jar  "$PaperJAR"\
 	--host 0.0.0.0 \
@@ -26,7 +28,7 @@ LGeyser() {
 cd ./GeyserS
 
 $JExec \
-	-XX:+UseZGC \
+	$ExtJAVAargs \
 	-DPaper.IgnoreJavaVersion=true \
 	-jar  "$(echo ./Geyser-*.jar)"\
 	--nogui
