@@ -17,4 +17,4 @@ $JExec \
 
 }
 
-LGeyser &
+LGeyser

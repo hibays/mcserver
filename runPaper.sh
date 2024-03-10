@@ -20,4 +20,4 @@ $JExec \
 
 }
 
-LPaper &
+LPaper

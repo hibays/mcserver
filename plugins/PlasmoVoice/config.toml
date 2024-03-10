@@ -16,7 +16,7 @@ port = 0
 # 12000
 # 24000
 # 48000
-sample_rate = 48000
+sample_rate = 24000
 keep_alive_timeout_ms = 15000
 mtu_size = 1024
 client_mod_required = false
