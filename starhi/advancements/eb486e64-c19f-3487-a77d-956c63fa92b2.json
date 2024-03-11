@@ -265,6 +265,7 @@
       "potato": "2024-02-04 21:16:42 +0800",
       "glow_berries": "2024-03-10 19:38:05 +0800",
       "salmon": "2024-03-10 19:01:03 +0800",
+      "cooked_salmon": "2024-03-11 14:24:54 +0800",
       "tropical_fish": "2024-03-10 16:33:00 +0800"
     },
     "done": false
@@ -1933,6 +1934,18 @@
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2024-03-10 19:45:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-03-11 14:28:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2024-03-11 17:00:18 +0800"
     },
     "done": true
   },

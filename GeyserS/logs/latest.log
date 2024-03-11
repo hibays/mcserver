@@ -1,11 +1,11 @@
-[20:58:38.109 main/INFO] 正在加载插件...
-[20:58:38.120 main/INFO] 已加载 0 个插件
-[20:58:38.147 main/INFO] ******************************************
-[20:58:38.148 main/INFO] 
-[20:58:38.148 main/INFO] 加载 Geyser 中, 版本 2.2.2-SNAPSHOT (git-master-527eab0)
-[20:58:38.149 main/INFO] 
-[20:58:38.149 main/INFO] ******************************************
-[20:58:43.281 nioEventLoopGroup-3-1/INFO] Geyser正在启动 0.0.0.0:19132
-[20:58:43.339 main/INFO] 完成 (5.189s)! 执行/geyser help 来获取帮助信息!
-[21:08:58.841 main/INFO] Geyser关闭中
-[21:08:58.971 main/INFO] Geyser成功关闭.
+[15:49:23.250 main/INFO] 正在加载插件...
+[15:49:23.261 main/INFO] 已加载 0 个插件
+[15:49:23.292 main/INFO] ******************************************
+[15:49:23.293 main/INFO] 
+[15:49:23.293 main/INFO] 加载 Geyser 中, 版本 2.2.2-SNAPSHOT (git-master-527eab0)
+[15:49:23.293 main/INFO] 
+[15:49:23.294 main/INFO] ******************************************
+[15:49:28.616 nioEventLoopGroup-3-1/INFO] Geyser正在启动 0.0.0.0:19132
+[15:49:28.644 main/INFO] 完成 (5.35s)! 执行/geyser help 来获取帮助信息!
+[17:08:23.175 main/INFO] Geyser关闭中
+[17:08:23.307 main/INFO] Geyser成功关闭.
