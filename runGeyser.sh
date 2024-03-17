@@ -1,15 +1,15 @@
 CURDIR=$(cd $(dirname $0); pwd )
 cd $CURDIR/GeyserS
 
-JExec=java
+JExec="$JAVA_HOME/bin/java"
 
 GeyserJAR=$(echo Geyser-*.jar)
 
-ExtJAVAargs='-XX:+UseZGC -XX:+ZGenerational'
+ExtJAVAargs='-XX:+UseShenandoahGC'
 
 LGeyser() {
 
-$JExec \
+"$JExec" \
 	$ExtJAVAargs \
 	-DPaper.IgnoreJavaVersion=true \
 	-jar  "$GeyserJAR"\
