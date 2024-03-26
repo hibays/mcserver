@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "uuid": "96d16566-4737-3cf4-8c6f-cb6c70d694b4",
+    "name": "help",
+    "created": "2024-03-25 13:21:59 +0800",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "d4efa689-576a-37bc-b41f-f88089099bc4",
+    "name": "-h",
+    "created": "2024-03-25 13:21:51 +0800",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "9de4ce50-7dc4-33da-a809-752470ded431",
+    "name": "-help",
+    "created": "2024-03-25 13:21:57 +0800",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
