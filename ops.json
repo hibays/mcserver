@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "eb486e64-c19f-3487-a77d-956c63fa92b2",
+    "name": "freestars19",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "95d07171-a5f1-3a16-b60f-4a6b04546334",
+    "name": "Serrano_Soy",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

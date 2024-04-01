@@ -1,2 +1,3 @@
-[17:36:42.019 main/INFO] Geyser关闭中
-[17:36:42.177 main/INFO] Geyser成功关闭.
+[09:06:44.233 WebSocketConnectReadThread-407/ERROR] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
+[13:34:04.892 main/INFO] Geyser关闭中
+[13:34:05.027 main/INFO] Geyser成功关闭.
