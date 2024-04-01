@@ -1,3 +1,11 @@
-[09:06:44.233 WebSocketConnectReadThread-407/ERROR] Unable to resolve the skin api! This can be caused by your connection or the skin api being unreachable. api.geysermc.org
-[13:34:04.892 main/INFO] Geyser关闭中
-[13:34:05.027 main/INFO] Geyser成功关闭.
+[13:36:03.774 main/INFO] 正在加载插件...
+[13:36:03.784 main/INFO] 已加载 0 个插件
+[13:36:03.811 main/INFO] ******************************************
+[13:36:03.812 main/INFO] 
+[13:36:03.812 main/INFO] 加载 Geyser 中, 版本 2.2.2-SNAPSHOT (git-master-4ea94f8)
+[13:36:03.813 main/INFO] 
+[13:36:03.813 main/INFO] ******************************************
+[13:36:09.729 nioEventLoopGroup-3-1/INFO] Geyser正在启动 0.0.0.0:19132
+[13:36:09.780 main/INFO] 完成 (5.967s)! 执行/geyser help 来获取帮助信息!
+[17:34:27.382 main/INFO] Geyser关闭中
+[17:34:27.510 main/INFO] Geyser成功关闭.
